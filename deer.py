@@ -1,3 +1,5 @@
+print("Multiple comment lines skipped by Bishal")
+
 x = int(input("Enter x"))
 u = int(input("Enter u"))
 y = int(input("Enter y"))
