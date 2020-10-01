@@ -9,6 +9,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 count = 0;
+#This is a change by Jeevan Jyoti Sahoo
 url = input('Enter URL')
 data = urllib.request.urlopen(url).read().decode()
 
