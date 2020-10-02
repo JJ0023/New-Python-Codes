@@ -1,7 +1,7 @@
 import urllib.request , urllib.parse , urllib. error
 import json
 import ssl
-
+import socket
 #json file interact
 ctx.check_hostname = False
 
@@ -22,6 +22,12 @@ print(count)
 a=5
 b=6
 print(a+b)*(a**b)
+
+ 
+hostname = socket.gethostname() 
+IPAddr = socket.gethostbyname(hostname) 
+print("Your Computer Name is:" + hostname) 
+print("Your Computer IP Address is:" + IPAddr) 
 
 
 
