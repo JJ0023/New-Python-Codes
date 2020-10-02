@@ -19,6 +19,9 @@ print(json.dumps(js,indent=4))
 for item in js['comments']:
     count = count + item['count']
 print(count)
+a=5
+b=6
+print(a+b)*(a**b)
 
 
 
